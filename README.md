@@ -1,6 +1,8 @@
-# ATM Demand Forecasting in R
+# Time Series Forecasting in R
 
 A comprehensive time series analysis and forecasting project demonstrating predictive analytics across three real-world domains: **ATM cash withdrawals**, **residential power consumption**, and **water flow management**.
+
+![ATM Forecast Example](images/atm_forecast.png)
 
 ## Project Highlights
 
@@ -50,6 +52,19 @@ A comprehensive time series analysis and forecasting project demonstrating predi
 - AIC, AICc, and BIC for model comparison
 - Residual diagnostics (normality, ACF of residuals)
 - Visual forecast validation against historical patterns
+
+## Results
+
+| Dataset | Best Model | AIC | Key Insight |
+|---------|-----------|-----|-------------|
+| ATM1 | ARIMA(0,0,2)(0,1,1)[7] | Lowest among candidates | Box-Cox transformation improved fit |
+| ATM2 | ARIMA(0,0,2)(1,1,1)[7] | Lowest among candidates | Strong weekly pattern captured |
+| ATM3 | ETS | Lowest among candidates | Sparse data favored simpler model |
+| ATM4 | ETS (Box-Cox) | Lowest among candidates | Outlier removal critical for accuracy |
+| Power | ARIMA(0,0,1)[12] | Lowest among candidates | Clear yearly seasonality |
+| Water | SNAIVE | N/A | Simple model outperformed ARIMA/ETS |
+
+> **View the full analysis with all visualizations:** [Project1.pdf](Project1.pdf)
 
 ## Key Findings
 
