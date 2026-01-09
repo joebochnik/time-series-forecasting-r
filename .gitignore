@@ -1,0 +1,25 @@
+# R files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# RStudio files
+*.Rproj
+
+# Compiled files
+*.Rcheck/
+
+# knitr/RMarkdown cache
+*_cache/
+/cache/
+
+# Output files (keep forecast outputs but ignore temp files)
+*.log
+
+# macOS
+.DS_Store
+
+# rsconnect deployment files
+rsconnect/
