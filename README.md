@@ -2,7 +2,6 @@
 
 A comprehensive time series analysis and forecasting project demonstrating predictive analytics across three real-world domains: **ATM cash withdrawals**, **residential power consumption**, and **water flow management**.
 
-![ATM Forecast Example](images/atm_forecast.png)
 
 ## Project Highlights
 
